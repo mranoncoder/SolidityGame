@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "authenticate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"accounts/FuzzyIdentityChallenge.sol": "FuzzyIdentityChallenge"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"accounts/FuzzyIdentityChallenge.sol": {
+			"keccak256": "0x65e0e0a4f6a089c796993119377c0702c14f4624e78af7b6ad7fb033cf9e1624",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b2c725c81e3c75ecf2d11d4738d824a0308a57dda69ddd131a458feea5afda6e",
+				"dweb:/ipfs/QmZye2NJzT3xRdmwrq1frjuSdcFFD9K3BPdceeEsZqpfvk"
+			]
+		}
+	},
+	"version": 1
+}

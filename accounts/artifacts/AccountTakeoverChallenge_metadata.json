@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "authenticate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"accounts/AccountTakeoverChallenge.sol": "AccountTakeoverChallenge"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"accounts/AccountTakeoverChallenge.sol": {
+			"keccak256": "0x71b0693a99e9cd3f5dac91b16fa25a4575a9a3a44180dc77e39828f1271d2f7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://95a01eca62b4af6c248661d16d5bb06bb39cdcf1d3d923cfc133c8565b584396",
+				"dweb:/ipfs/QmYHWGjBX1FZPMHntASGc67nm1deQ8ZAPWWBtEg7bTwpqM"
+			]
+		}
+	},
+	"version": 1
+}

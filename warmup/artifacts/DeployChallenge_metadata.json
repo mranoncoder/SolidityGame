@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"warmup/DeployChallenge.sol": "DeployChallenge"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"warmup/DeployChallenge.sol": {
+			"keccak256": "0x246b34542bbce3433195d695d6aff6803fae8b7382c3d1bb5d4f009585e2ab03",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://82df9d74f57bc8d389f4803d341fc3364ccd364697b83ea3f71089fbfbdcea6a",
+				"dweb:/ipfs/QmNMfUC1cKPNBbu7PX8J6xFZ3W7cDmSSHQcvALhtj8wgGF"
+			]
+		}
+	},
+	"version": 1
+}

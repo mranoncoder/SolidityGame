@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "n",
+						"type": "uint8"
+					}
+				],
+				"name": "guess",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lotteries/GuessTheNewNumberChallenge.sol": "GuessTheNewNumberChallenge"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lotteries/GuessTheNewNumberChallenge.sol": {
+			"keccak256": "0x34354af2703e917ba9ad2ce965be90e53c9e80337ff10270c7c2dae7584a5b6d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f7c561ecb8582071cd80d9a78fb39e2b443b7b988e80d198fe3801524c2674a6",
+				"dweb:/ipfs/QmVF8iWbkW8GjrX1WpETeGsYXhfDTXpDDTrn2qyALrKkAL"
+			]
+		}
+	},
+	"version": 1
+}

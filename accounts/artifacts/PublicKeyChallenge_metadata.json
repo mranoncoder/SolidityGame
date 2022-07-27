@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "publicKey",
+						"type": "bytes"
+					}
+				],
+				"name": "authenticate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"accounts/PublicKeyChallenge.sol": "PublicKeyChallenge"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"accounts/PublicKeyChallenge.sol": {
+			"keccak256": "0xee8bf4e0235e931de688168136c3f4ca99104d02df3587f630bd55f47c9b433e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d05cb1fb4418d92d441ee7a59341e6f22619579897d35b9a94e0b590300944a7",
+				"dweb:/ipfs/QmTmjdgFip5ByA23TDYMTcHSHj5uhLedtcEULrnP8TgKSy"
+			]
+		}
+	},
+	"version": 1
+}

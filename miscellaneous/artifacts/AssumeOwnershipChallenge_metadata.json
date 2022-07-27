@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "AssumeOwmershipChallenge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "authenticate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isComplete",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"miscellaneous/AssumeOwnershipChallenge.sol": "AssumeOwnershipChallenge"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"miscellaneous/AssumeOwnershipChallenge.sol": {
+			"keccak256": "0x544a86c5d417a565d619d91d99b0633f72177f72603fef6aeccd6268c09faaed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c248062b1bc25579630b5ecc6789349c08c49664c93f7e84003fe90adcf741fd",
+				"dweb:/ipfs/Qmd8iicQSSBJvcZcP7Pop6csTG3C1bnnJ2uZFsYCsceYZo"
+			]
+		}
+	},
+	"version": 1
+}

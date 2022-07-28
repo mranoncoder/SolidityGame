@@ -9,14 +9,14 @@ contract FuzzyIdentityChallenge {
     bool public isComplete;
 
     function authenticate() public {
-        require(isSmarx(msg.sender));
+        require(isSolidityGame(msg.sender));
         require(isBadCode(msg.sender));
 
         isComplete = true;
     }
 
-    function isSmarx(address addr) internal view returns (bool) {
-        return IName(addr).name() == bytes32("smarx");
+    function isSolidityGame(address addr) internal view returns (bool) {
+        return IName(addr).name() == bytes32("SolidityGame");
     }
 
     function isBadCode(address _addr) internal pure returns (bool) {
